@@ -185,7 +185,7 @@ class App extends Component {
                     <b>答案：</b> {question.answer}
                   </p>
                   <p>
-                    <b>问题：</b> {question.question}
+                    <b>模型生成的问题：</b> <h3 style={{ display: 'inline', color: 'red' }}>{question.question}</h3>
                   </p>
                 </Card>
               </Row>
